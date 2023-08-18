@@ -7,7 +7,7 @@ Vue.use(VueMeta, {
 })
 
 Vue.config.productionTip = false
-Vue.commandLine.appendSwitch('ignore-certificate-errors')
+
 new Vue({
   render: h => h(App)
 }).$mount('#app')

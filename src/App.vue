@@ -12,7 +12,7 @@ export default {
   name: "App",
   data() {
     return {
-      api_endpoint: 'http://82.157.50.57:8900/',
+      api_endpoint: 'https://dxx-func.haha44444.top:8900/',
       title: "正在请求数据...",
       dxx: '正在获取图片...'
     };

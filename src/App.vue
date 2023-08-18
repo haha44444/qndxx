@@ -12,7 +12,7 @@ export default {
   name: "App",
   data() {
     return {
-      api_endpoint: 'https://9966df427a59473692f15d799442f2ce.apig.ap-southeast-3.huaweicloudapis.com/qndxx',
+      api_endpoint: 'http://82.157.50.57:8900/',
       title: "正在请求数据...",
       dxx: '正在获取图片...'
     };

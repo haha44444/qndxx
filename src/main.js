@@ -8,15 +8,6 @@ Vue.use(VueMeta, {
 
 Vue.config.productionTip = false
 
-Vue.get('/',(req, res) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  const query = req.query;
-  res.send({
-    status: 0,
-    data: query,
-  });
-})
-
 new Vue({
   render: h => h(App)
 }).$mount('#app')
